@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/react-gitpage-psmm/static/css/main.5f361e03.chunk.css",
-    "main.js": "/react-gitpage-psmm/static/js/main.9516231c.chunk.js",
-    "main.js.map": "/react-gitpage-psmm/static/js/main.9516231c.chunk.js.map",
-    "runtime-main.js": "/react-gitpage-psmm/static/js/runtime-main.be80b976.js",
-    "runtime-main.js.map": "/react-gitpage-psmm/static/js/runtime-main.be80b976.js.map",
-    "static/js/2.6cb6d0fe.chunk.js": "/react-gitpage-psmm/static/js/2.6cb6d0fe.chunk.js",
-    "static/js/2.6cb6d0fe.chunk.js.map": "/react-gitpage-psmm/static/js/2.6cb6d0fe.chunk.js.map",
-    "index.html": "/react-gitpage-psmm/index.html",
-    "precache-manifest.b45e7973f0662dd773920a6bd34e38ac.js": "/react-gitpage-psmm/precache-manifest.b45e7973f0662dd773920a6bd34e38ac.js",
-    "service-worker.js": "/react-gitpage-psmm/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/react-gitpage-psmm/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.6cb6d0fe.chunk.js.LICENSE.txt": "/react-gitpage-psmm/static/js/2.6cb6d0fe.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/react-gitpage-psmm/static/media/logo.5d5d9eef.svg"
+    "main.css": "/react-gitpage/static/css/main.5f361e03.chunk.css",
+    "main.js": "/react-gitpage/static/js/main.a7dcd86f.chunk.js",
+    "main.js.map": "/react-gitpage/static/js/main.a7dcd86f.chunk.js.map",
+    "runtime-main.js": "/react-gitpage/static/js/runtime-main.ebd43bf4.js",
+    "runtime-main.js.map": "/react-gitpage/static/js/runtime-main.ebd43bf4.js.map",
+    "static/js/2.6cb6d0fe.chunk.js": "/react-gitpage/static/js/2.6cb6d0fe.chunk.js",
+    "static/js/2.6cb6d0fe.chunk.js.map": "/react-gitpage/static/js/2.6cb6d0fe.chunk.js.map",
+    "index.html": "/react-gitpage/index.html",
+    "precache-manifest.393ed01d3b217495d8b459c177653e24.js": "/react-gitpage/precache-manifest.393ed01d3b217495d8b459c177653e24.js",
+    "service-worker.js": "/react-gitpage/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/react-gitpage/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.6cb6d0fe.chunk.js.LICENSE.txt": "/react-gitpage/static/js/2.6cb6d0fe.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/react-gitpage/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.be80b976.js",
+    "static/js/runtime-main.ebd43bf4.js",
     "static/js/2.6cb6d0fe.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.9516231c.chunk.js"
+    "static/js/main.a7dcd86f.chunk.js"
   ]
 }
