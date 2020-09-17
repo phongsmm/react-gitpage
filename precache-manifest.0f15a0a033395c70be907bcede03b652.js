@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3205fdc22730efe79442ee39dbeb2107",
+    "revision": "8db39701ff3efdac52d65efa240f36f2",
     "url": "/react-gitpage/index.html"
   },
   {
-    "revision": "00e3a2993f2a23d04d3d",
-    "url": "/react-gitpage/static/css/main.5f361e03.chunk.css"
+    "revision": "7fd4366f04b2dff7b73c",
+    "url": "/react-gitpage/static/css/main.b1b67528.chunk.css"
   },
   {
-    "revision": "fab3c1cf399127029d0f",
-    "url": "/react-gitpage/static/js/2.6cb6d0fe.chunk.js"
+    "revision": "5e6b2147f167598f2a08",
+    "url": "/react-gitpage/static/js/2.8f0ce520.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/react-gitpage/static/js/2.6cb6d0fe.chunk.js.LICENSE.txt"
+    "url": "/react-gitpage/static/js/2.8f0ce520.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "00e3a2993f2a23d04d3d",
-    "url": "/react-gitpage/static/js/main.a7dcd86f.chunk.js"
+    "revision": "7fd4366f04b2dff7b73c",
+    "url": "/react-gitpage/static/js/main.2dbb828f.chunk.js"
   },
   {
     "revision": "e6d08e3ce6a2ebc0fa0c",
