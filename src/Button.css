@@ -13,13 +13,7 @@
   *::before, *::after {
     box-sizing: border-box;
   }
-  body {
-    font-family: 'OpenSans', sans-serif;
-    font-size: 1rem;
-    margin: 0;
-    min-height: 100vh;
 
-  }
   button {
     position: relative;
     display: inline-block;
@@ -84,4 +78,12 @@
 
     margin-right: 10px;
 
+  }
+
+  .mt30{
+    margin-top: 60px;
+  }
+
+  .pad5{
+    padding: 5px;
   }

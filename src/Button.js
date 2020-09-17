@@ -1,13 +1,22 @@
-import React,{useEffect,useState}  from 'react';
+import React,{useEffect,useState} from 'react';
 import  {useSpring,animated} from 'react-spring'
+import Paper from '@material-ui/core/Paper';
+import Grid from '@material-ui/core/Grid';
+
 import './Button.css';
+import {list} from './info';
 
 const Button =() => {
 
 
+  const [Info,setInfo] = useState([]);    
   const [userText, setUserText] = useState("None");
   const [Log,setLog] = useState("");
+ 
 
+ 
+
+  
   const anim = useSpring({
     from:{
       
@@ -22,17 +31,32 @@ const Button =() => {
   });
 
   useEffect(() => {
-
+    setInfo(list.filter((content)=>
+    {return content.name.toLowerCase().indexOf(Log.toLowerCase())!==-1}));
+      
       const handleUserKeyPress = event => {
       const { key } = event;
+      if(key === "Backspace"||key==="Delete"){
+        if(Log.length>=0){
+          var newLog = Log.slice(0,-1);
+          setLog(newLog);
+          console.log({Log});
+        }
+      }
+      else if(key === "Control" || key === "Shift"||key==="Enter"||key==="Escape"){
 
-      document.getElementById('pop').style.transform = 'translate(0, 0.375em)';
+        console.log(key);
+      }
+
+      else{
       
-        setUserText(`${key}`);
-
-        setLog(`${Log}${key}`);
-        console.log({key});
+        console.log(Log.length);
+      document.getElementById('pop').style.transform = 'translate(0, 0.375em)';
         
+       setUserText(`${key}`);
+       setLog(`${Log}${key}`);
+        console.log({Log});
+      }
        
         
     };
@@ -59,10 +83,30 @@ function logclear(){
 
 
 return(
-  <animated.div style={anim}>
+
+<div>
+
+<animated.div style={anim}>
   <button id="pop" className="big-button margin10">{userText}</button>
   <button id="pop" className="big-button" onClick={logclear}>{Log}</button>
+
+
+
+
 </animated.div> 
+
+<div className="mt30">
+      <Grid container spacing={3}>
+      {Info.map((data) => {
+        return <Grid item xs={6} key={data.key}>
+          <Paper className="pad5">{data.name}</Paper>
+          </Grid>})}
+
+
+      </Grid>
+    </div>
+</div>
+
 );
     
   }
